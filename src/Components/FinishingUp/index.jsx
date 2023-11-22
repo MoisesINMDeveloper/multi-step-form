@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { InfoContext } from "../../Context/ContextProvider";
 
 export default function FinishingUp() {
-    const { showYearlyPlans, changeStep } = useContext(InfoContext);
+    const { changeStep } = useContext(InfoContext);
     const [selectedPlan, setSelectedPlan] = useState(null);
     const [selectedAddons, setSelectedAddons] = useState([]);
 
