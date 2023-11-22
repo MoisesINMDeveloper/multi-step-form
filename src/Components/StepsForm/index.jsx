@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { InfoContext } from "../../Context/ContextProvider";
 import InfoPersonal from "../InfoPersonal";
 import SelectYourPlan from "../SelectYourPlan";
-import PickAddons from "../PickAddons";
+import PickAddons from "../PickAddOns";
 import FinishingUp from "../FinishingUp";
 import ThanksYou from "../ThanksYou";
 
