@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.steps-list {
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+.step-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border: solid 1px;
+    border-radius: 100%;
+    border-color:hsl(0, 0%, 100%);
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+/*Styles for Personal Info*/
+
+label{
+    color:hsl(213, 96%, 18%);
+    font-size: smaller;
+    font-weight: 500;
+}
+input{
+    border-width: 1px;    
+    border-color: hsl(229, 24%, 87%);
+    height: 2.5rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    outline: none;
+
+}
+input:hover{
+    border-width: 1px;
+    border-color:hsl(243, 100%, 62%);
+    cursor: pointer;
+}
+.selected-plan {
+    background-color: hsl(231, 100%, 99%); /* Cambia el color de fondo según tus necesidades */
+    border-color: #7b42f5; /* Cambia el color del borde según tus necesidades */
+    /* Agrega cualquier otro estilo para indicar que el plan está seleccionado */
+}
