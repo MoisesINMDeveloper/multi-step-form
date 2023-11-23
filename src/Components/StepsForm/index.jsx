@@ -93,7 +93,7 @@ export default function StepsForm() {
                         </nav>
                         <div className="tablet:flex-col">
 
-                            <section className="tablet:items-center tablet:w-[auto] tablet:min-w-[34rem] tablet:h-[auto] flex justify-center w-[100vw] h-[75vh] bg-Magnolia tablet:bg-White">
+                            <section className="tablet:items-center tablet:w-[auto] tablet:min-w-[34rem] tablet:h-[auto] flex justify-center w-[100vw] h-[31rem] bg-Magnolia tablet:bg-White">
                                 {/* Renderiza los componentes según el paso actual */}
                                 {currentStep === 1 && <InfoPersonal />}
                                 {currentStep === 2 && <SelectYourPlan />}
